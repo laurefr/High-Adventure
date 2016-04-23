@@ -13,7 +13,7 @@ function criteria(){
     
     
 // Create a condition for the age weigth and hight
-if (age < 26 && weight > 50 && weight < 90 && height>150 && height<190) 
+if ((age < 26) && (weight > 50 && weight < 90) && (height>150 && height<190)) 
 
 {   
 document.getElementById("youAreSuccessful").innerHTML ="Well done you have met the criteria, click next to continu your booking." ;
@@ -43,4 +43,4 @@ else
 } //end of outer if
     
   
-    }//end of function
+}//end of function
